@@ -42,11 +42,6 @@ In your Salesforce Org:
 2. Move **Contact** from *Available Entities* to *Selected Entities*
 3. Click **Save**
 
-> **OR** deploy the included metadata:
-> ```bash
-> sf project deploy start --source-dir force-app/main/default/platformEventChannelMembers
-> ```
-
 ---
 
 ## Node.js Server Setup
@@ -181,3 +176,4 @@ cdc-node-server/
 | `Handshake failed` | Check Streaming API is enabled in your org |
 | No events received | Confirm CDC is enabled for the entity in Setup |
 | `INVALID_TYPE` error | Verify the CDC channel name matches your object |
+
